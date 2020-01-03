@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.cube {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+.cube1 {
+    background: crimson;
+    transform: rotate(0deg);
+}
+.cube1:hover {
+    animation: anim1 3s forwards;
+}
+.cube2 {
+    background: salmon;
+}
+.cube2:hover {
+    animation: anim2 3s forwards;
+}
+@keyframes anim1 {
+    to {
+        transform: rotate(360deg)
+    }
+}
+@keyframes anim2 {
+    from {
+        transform: translate(0px);
+    }
+    to {
+        transform: translate(1000px)
+    }
+}

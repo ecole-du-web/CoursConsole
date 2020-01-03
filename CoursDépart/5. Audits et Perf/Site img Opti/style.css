@@ -1,0 +1,135 @@
+body {
+    margin : 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/* Section header */
+
+header{
+    background: url("https://images.unsplash.com/photo-1478826160983-e6db8c7d537a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    
+    background-size: cover;
+    background-position: 200px 80px;
+    height: 100vh;
+  }
+
+h1{
+    color: #f1f1f1;
+    margin-top: 200px;
+}
+
+.sousT {
+    color: #f1f1f1;
+    font-size: 30px;
+}
+
+.btnH {
+    margin-top: 50px;
+}
+  /* Section photos */
+
+  .SectionPhotos{
+      margin: 70px 0 100px 0;
+  }
+  .SectionPhotos h2{
+    margin-bottom: 100px;
+  }
+  .photos {
+      margin-bottom: 30px;
+  }
+
+  /* Section par 1  */
+
+  .secPar1 {
+      height: 300px;
+  }
+
+  /* Section services */
+
+  .headerService{
+      margin: 80px 0 80px 0;
+  }
+
+  .flexIco {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  } 
+
+  .separateur {
+      margin : 60px auto;
+      width: 160px;
+
+  }
+
+  .secondContServ {
+    margin-bottom: 180px;
+  }
+
+  /* Section photo DG */
+
+  .photosDG {
+      margin-top: 200px;
+  }
+
+/* Section contact */
+
+.contact {
+    border-top: 1px dashed black;
+    margin-top: 100px;
+
+}
+
+
+.contact .container {
+    margin-top: 100px;
+}
+
+
+/* Médias queries */
+@media screen and (max-width: 1000px){
+    header{
+    background-position: 0px 80px;
+        }
+    }
+
+
+@media screen and (max-width: 992px){
+    
+    .photosDG {
+        margin-top: 0;
+    }
+
+    .troisImg{
+        margin: 60px 0;
+    }
+  
+}
+
+@media screen and (max-width: 700px){
+    header  {
+
+    background-position: -100px 80px;
+
+        }
+
+    }
+    
+        
+@media screen and (max-width: 600px){
+    h1{
+        color: #f1f1f1;
+        margin-top: 100px;
+    }
+    
+    header  {
+    height: 70vh;
+    background-position: -100px 100px;
+
+        }
+
+    }
+
+    
+    
