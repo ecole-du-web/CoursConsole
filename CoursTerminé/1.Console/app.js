@@ -36,11 +36,13 @@ console.time("fetch");
 // Alerte 
 // alert("Hello world")
 
-// Tu peux filter dans la console avec la search bar
+
 
 // dir
 // Affiche toutes propriétés d'un élément
 console.dir(document.querySelector('h1'));
 
 
-// Prompt, juste pour montrer
+
+
+

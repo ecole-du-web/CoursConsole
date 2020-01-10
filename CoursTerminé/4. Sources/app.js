@@ -1,16 +1,20 @@
 // exemple de subtree modifications
 // Attention il peut y avoir beaucoup de fichiers JS avec les extensions CHROME !
 
+// Global
+window.addEventListener('load', ()=>{
+    console.log("hello");
+})
 
 const plusOne = document.querySelector('.plusOne');
 const result = document.querySelector('.result');
 
-let valeur = "";
+let valeur = 0;
 
 
 plusOne.addEventListener('click', () => {
     
-    valeur = valeur + "1";
+    valeur = valeur + 1;
     
     result.innerHTML = valeur;
 })
@@ -38,4 +42,4 @@ checkLetter();
 
 
 // Pause on exceptions
-console.log(resultqsdqsat);
+console.log(resultat);

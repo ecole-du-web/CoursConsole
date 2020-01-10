@@ -1,3 +1,8 @@
+const nav = document.getElementById('main-nav');
+
+nav.addEventListener('click', () => {
+  nav.style.height = '500px';
+})
 
 // Get the current year for the copyright
 $('#year').text(new Date().getFullYear());

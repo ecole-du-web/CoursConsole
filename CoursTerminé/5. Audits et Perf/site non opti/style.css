@@ -12,6 +12,7 @@ header{
     background-size: cover;
     background-position: 200px 80px;
     height: 100vh;
+    min-height: 1000px;
   }
 
 h1{

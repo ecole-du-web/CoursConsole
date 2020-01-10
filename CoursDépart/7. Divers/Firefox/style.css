@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #333;
+    height: 100vh;
+    width: 100%;
+}
+.grid {
+    display: grid;
+    grid-template: repeat(8, 1fr) / repeat(12, 1fr);
+    height: 100vh;
+    width: 100%;
+}
